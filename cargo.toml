@@ -1,0 +1,6 @@
+[dependencies]
+actix-web = "4.0"       # Framework web assíncrono
+serde = { version = "1.0", features = ["derive"] } # Serialização de dados
+serde_json = "1.0"      # Manipulação de JSON
+petgraph = "0.6"        # Biblioteca para grafos
+uuid = { version = "1.0", features = ["v4"] } # Geração de IDs únicos
